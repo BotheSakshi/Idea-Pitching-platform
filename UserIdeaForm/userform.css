@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+.userformmain{
+    overflow:hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.horizontalline{
+    border-bottom: 0.1rem solid rgb(70, 58, 180);
+    margin-bottom: 2rem;
+}
+.formdiv{
+ 
+/* border: 1px solid black; */
+padding: 2rem;
+border-radius:0.5rem;
+
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.inp{
+    width: 30vw;
+
+margin-bottom: 1rem;
+height: 2rem;
+
+
+}
+.userformheading{
+color: rgb(58, 49, 126);
+font-family: 'Nunito Sans', sans-serif;
+font-size: 2rem;
+font-weight: bold;
+text-align: center;
+}
+.textarea{
+    max-width: 30vw;
+    width: 30vw;
+    height:15vh;
+}
+.genderbtn{
+text-align: start;
+width: 30vw;
+
+ margin-bottom: 1rem;
+}
+#submitbtn{
+    text-align: center;
+    background-color:rgb(70, 58, 180);
+    color: white;
+    width: 30vw;
+}
+
+.headButton{
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    background-color: rgb(70, 58, 180);
+    color: white;
+    border: none;
+}
